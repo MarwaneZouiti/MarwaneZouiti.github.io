@@ -16,7 +16,7 @@ ul {
 
 ul li a {
   display: block;
-  color: rgb(152, 148, 148);
+  color: grey;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
