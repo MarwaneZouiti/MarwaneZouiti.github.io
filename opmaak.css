@@ -24,5 +24,6 @@ ul li a {
 
 ul li a:hover {
   background-color: grey;
+  color: aliceblue;
   text-decoration: underline;
 }
