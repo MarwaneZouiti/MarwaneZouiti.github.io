@@ -2,7 +2,8 @@ body {
     background-color: bisque;
 }
 
-ul {list-style-type: none; 
+ul {
+    list-style-type: none; 
     margin: 0%; 
     padding: 0%; 
 }
