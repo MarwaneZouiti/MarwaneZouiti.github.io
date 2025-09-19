@@ -10,7 +10,6 @@ ul {
   padding: 0px;
   overflow: auto;
   background-color: #333333;
-  justify-content: center;
 }
 
 ul li a {
