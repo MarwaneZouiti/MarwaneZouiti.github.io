@@ -13,10 +13,6 @@ ul {
   justify-content: center;
 }
 
-ul li {
-  float: left;
-}
-
 ul li a {
   display: block;
   color: white;
