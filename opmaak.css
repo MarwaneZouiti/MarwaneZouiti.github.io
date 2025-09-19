@@ -10,6 +10,8 @@ ul {
   padding: 0px;
   overflow: auto;
   background-color: #333333;
+  display: flex;
+  justify-content: center;
 }
 
 ul li a {
