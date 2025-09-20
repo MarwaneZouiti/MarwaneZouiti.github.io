@@ -39,6 +39,7 @@ ul li a.active {
 img {
   display: block;
   margin: 0 auto; /* snel horizontaal centreren */
+  margin-top: 60px;
 }
 
 
