@@ -16,7 +16,7 @@ ul {
   top: 0;             /* bovenaan het scherm */
   left: 0;
   width: 100%;
-  height: 45px;       /* stel hier je menuhoogte in */
+  height: 47px;       /* stel hier je menuhoogte in */
   z-index: 1000;      /* blijft boven andere elementen */
 }
 
