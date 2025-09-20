@@ -29,3 +29,10 @@ ul li a:hover {
 img {
   float: center;
 }
+
+.iframe-wrap {
+  display: flex;
+  justify-content: center; /* horizontaal centreren */
+  align-items: center;     /* verticaal centreren (optioneel) */
+  min-height: 100vh;       /* hele hoogte scherm, voor verticaal */
+}
