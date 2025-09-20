@@ -45,7 +45,7 @@ ul li a::after {                 /* ✨ nieuw */
   bottom: 0;
   left: 0;
   width: 0;
-  height: 2px;
+  height: 4px;
   background: rgb(97, 218, 255);
   transition: width 0.3s;
 }
