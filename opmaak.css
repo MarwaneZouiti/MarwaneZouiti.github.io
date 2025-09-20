@@ -1,28 +1,28 @@
 body {
     background-color: rgb(219, 219, 219);
-    margin: 0px;
-    padding: 0px;
-    padding-top: 0px; 
+    margin: 0;
+    padding: 0;
+    padding-top: 50px; /* ruimte boven content, gelijk aan menuhoogte */
 }
 
 ul {
   list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  overflow: auto;
+  margin: 0;
+  padding: 0;
   background-color: black;
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   position: fixed;
-  top: 10;
+  top: 0;             /* bovenaan het scherm */
+  left: 0;
   width: 100%;
-  
+  height: 50px;       /* stel hier je menuhoogte in */
+  z-index: 1000;      /* blijft boven andere elementen */
 }
-
 
 ul li a {
   display: block;
-  color:white;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -36,6 +36,7 @@ ul li a:hover {
 ul li a.active {
   background-color: grey;
 }
+
 img {
   display: block;
   margin: 0 auto; /* snel horizontaal centreren */
