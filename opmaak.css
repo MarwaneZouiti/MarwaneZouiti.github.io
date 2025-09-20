@@ -12,6 +12,12 @@ ul {
   background-color: #333333;
   display: flex;
   justify-content: center;
+  position: fixed;
+  top: 0;        
+  left: 0;       
+  width: 100%;   
+}
+
 }
 
 ul li a {
