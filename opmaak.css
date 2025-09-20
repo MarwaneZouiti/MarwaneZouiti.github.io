@@ -26,6 +26,12 @@ ul li a:hover {
   background-color: grey;
   text-decoration: underline;
 }
+
+ul li a.active {
+  background-color: grey;
+  color: white;
+}
+
 img {
   display: block;
   margin: 0 auto; /* snel horizontaal centreren */
