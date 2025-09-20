@@ -47,7 +47,7 @@ ul li a::after {                 /* ✨ nieuw */
   width: 0;
   height: 4px;
   background: rgb(97, 218, 255);
-  transition: width 0.3s;
+  transition: width 0.4s;
 }
 
 ul li a:hover::after {           /* ✨ nieuw */
