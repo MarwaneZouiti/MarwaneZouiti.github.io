@@ -12,6 +12,9 @@ ul {
   background-color: black;
   display: flex;
   justify-content: center;  
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 
