@@ -27,7 +27,7 @@ ul li a:hover {
   text-decoration: underline;
 }
 img {
-  float: center;
+  justify-content: center;
 }
 
 iframe-wrap {
@@ -37,6 +37,4 @@ iframe-wrap {
   min-height: 100vh;     
 }  
 
-img {
-  float: center;
-}
+
