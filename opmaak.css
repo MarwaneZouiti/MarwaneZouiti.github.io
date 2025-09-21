@@ -51,6 +51,7 @@ ul li a::after {
 
 ul li a:hover::after {           
   width: 75%;
+  position: relative;
 }
 
 img {
