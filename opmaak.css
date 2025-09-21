@@ -41,7 +41,7 @@ ul li a.active {
 ul li a::after {                 
   content: "";
   position: absolute;
-  bottom: 5px;
+  bottom: 15px;
   left: 0;
   width: 0;
   height: 3px;
