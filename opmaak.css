@@ -8,7 +8,7 @@ body {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 28;
+  padding: 0;
   background-color: black;
   display: flex;
   justify-content: center;
