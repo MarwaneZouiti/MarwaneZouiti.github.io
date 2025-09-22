@@ -16,7 +16,7 @@ ul {
   top: 0;             /* bovenaan het scherm */
   left: 0;
   width: 100%;
-  height: 55px;       /* stel hier je menuhoogte in */
+  height: 70px;       /* stel hier je menuhoogte in */
 }
 
 ul li a {
