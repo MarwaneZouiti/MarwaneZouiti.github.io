@@ -59,7 +59,7 @@ ul li a:hover::after {                     /* Wanneer de muis over de link gaat 
 }
 
 h1 {
-  position: center;
+  text-align: center;
 }
 
 img {
