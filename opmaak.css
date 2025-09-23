@@ -52,6 +52,7 @@ ul li a::after {
   background: rgb(97, 218, 255);
   transition: width 0.4s;          
   width: 100%;
+  border-radius: 4px;
 }
 
 img {
