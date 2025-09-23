@@ -50,10 +50,7 @@ ul li a::after {
   width: 0;
   height: 3px;
   background: rgb(97, 218, 255);
-  transition: width 0.4s;
-}
-
-ul li a:hover::after {           
+  transition: width 0.4s;          
   width: 100%;
 }
 
