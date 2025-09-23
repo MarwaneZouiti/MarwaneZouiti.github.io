@@ -58,6 +58,10 @@ ul li a:hover::after {                     /* Wanneer de muis over de link gaat 
   width: 100%;                             /* Lijn groeit van 0 naar volledige breedte: het effect */
 }
 
+h1 {
+  position: center;
+}
+
 img {
   display: block;
   float: right;
