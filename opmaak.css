@@ -51,8 +51,11 @@ ul li a::after {
   height: 3px;
   background: rgb(97, 218, 255);
   transition: width 0.4s;          
-  width: 100%;
   border-radius: 4px;
+}
+
+ul li a:hover::after {                     /* Wanneer de muis over de link gaat */
+  width: 100%;                             /* Lijn groeit van 0 naar volledige breedte: het effect */
 }
 
 img {
