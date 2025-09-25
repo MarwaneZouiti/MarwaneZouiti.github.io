@@ -84,3 +84,11 @@ p {
   margin-left: 15px;
   margin-right: 15px;
 }
+
+span .Cristiano{
+  color: red;
+} 
+
+span .Ronaldo{
+  color: greenyellow;
+}
