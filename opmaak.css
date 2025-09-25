@@ -76,8 +76,8 @@ iframe {
 }
 
 p {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: bisque;
   border-radius: 8px;
   width: 80%;
   padding: 15px;
