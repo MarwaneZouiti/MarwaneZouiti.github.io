@@ -93,6 +93,7 @@ border-radius: 8px;
 width: 60%;
 padding: 30px;
 margin: 100px auto 0 auto; /* ↑150px ruimte boven, auto links/rechts */
+margin-left: 75px;
 }
 .Cristiano{
   color: red;
