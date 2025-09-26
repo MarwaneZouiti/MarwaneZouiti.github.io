@@ -81,9 +81,7 @@ iframe {
   border-radius: 8px;
   width: 65%;
   padding: 30px;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-top: 15px;
+  margin: auto;
 }
 
 .tweede{ 
