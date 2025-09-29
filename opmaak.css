@@ -110,6 +110,7 @@ margin-left: 75px;
 .binair{
 color: white;
 background-image:url(Binaire\ code.jpg);
+filter: brightness(80%);
 border-radius: 8px;
 padding: 30px;
 width: 50%;
