@@ -5,7 +5,9 @@ body {
     padding-top: 70px; /* ruimte boven content, gelijk aan menuhoogte */
 }
 
-.Binair
+.Binair-stelsel{
+background-image: url(Binaire\ code.jpg);
+}
 
 ul {
   list-style-type: none;
