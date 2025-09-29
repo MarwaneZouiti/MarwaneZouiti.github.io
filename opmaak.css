@@ -105,10 +105,5 @@ margin-left: 75px;
 }
 
 .binair{
-color: black;
-background-color: grey;
-border-radius: 8px;
-width: 100%;
-padding: 30px;
-margin: 0 auto;
+float: right;
 }
