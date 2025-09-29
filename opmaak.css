@@ -105,5 +105,9 @@ margin-left: 75px;
 }
 
 .binair{
-float: right;
+color: black;
+background-color: grey;
+border-radius: 8px;
+padding: 30px;
+margin: 0 auto;
 }
