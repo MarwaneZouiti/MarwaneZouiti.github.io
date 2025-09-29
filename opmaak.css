@@ -109,7 +109,7 @@ margin-left: 75px;
 
 .binair{
 color: white;
-background-image:linear-gradient(rgba(151, 64, 64, 0.5), rgba(146, 103, 103, 0.5)) url(Binaire\ code.jpg);
+background-image:url(Binaire\ code.jpg);
 border-radius: 8px;
 padding: 30px;
 width: 50%;
