@@ -98,8 +98,15 @@ margin-left: 75px;
 }
 .Cristiano{
   color: red;
-} 
 
 .Ronaldo{
   color: greenyellow;
+}
+
+.binair {
+color: black;
+background-color: grey;
+border-radius: 8px;
+width: 45%;
+padding: 30px;
 }
