@@ -213,6 +213,7 @@ margin-top: 20px;
 text-align: center;
 }
 .RGB{
+display: block;
 margin: auto;
 }
 
