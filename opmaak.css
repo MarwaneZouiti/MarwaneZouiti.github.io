@@ -149,6 +149,7 @@ border-radius: 8px;
 
 .table-container {
 margin: 0 auto;
+border-radius: 8px;
 }
 
 th, td {
