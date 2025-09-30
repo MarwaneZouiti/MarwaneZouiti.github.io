@@ -1,33 +1,67 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
+<!-- Dit vertelt de browser dat dit een HTML5-document is -->
+
 <html>
 <head>
-<link rel="stylesheet" href="opmaak.css">
+    <!-- Hier link je naar je stylesheet (CSS). 
+         Heel goed dat je maar 1 css-bestand hebt (opmaak.css). -->
+    <link rel="stylesheet" href="opmaak.css">
 </head>
+
 <body>
+    <!-- Navigatiebalk (menu) begint hier -->
     <ul>
+       <!-- "li" = lijstitem, "a" = link.
+            class="active" laat zien dat dit de huidige pagina is (Home). -->
        <li><a class="active" href="index.html">Home</a></li>
+       <!-- Link naar de pagina binair.html -->
        <li><a href="binair.html">Binair stelsel</a></li>
+       <!-- Link naar de pagina compressie.html -->
        <li><a href="compressie.html">Compressie</a></li>
+       <!-- Link naar de pagina kleurmodellen.html -->
        <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
+       <!-- Link naar de pagina Invoer-verwerking-uitvoer.html 
+            Tip: vermijd spaties in bestandsnamen, beter "invoer-verwerking-uitvoer.html". -->
        <li><a href="Invoer - verwerking - uitvoer.html">Invoer-verwerking-uitvoer</a></li>
     </ul>
-<h1>Hallo dames en heren, welkom bij mijn website!</h1>
-<img class="CR7" src="Foto's/Foto van Ronaldo.png" alt="Cristiano Ronaldo in een zakelijke pak">
-<p class="begin">Hallo, mijn naam is Marwane. Ik ben 16 jaar en zit in 5 vwo.
-Ik ben geboren en getogen in Leiden en mijn hobby’s zijn voetbal en naar de sportschool gaan.
-Omdat ik tweetalig ben opgegroeid, spreek ik vloeiend Pools.
-Mijn idool is <span class="Cristiano">Cristiano</span> <span class="Ronaldo">Ronaldo</span>, omdat hij bekendstaat om zijn discipline en harde werk.
-Later hoop ik net zo gedreven en succesvol te worden als hij.</p>
+    <!-- Navigatiebalk eindigt hier -->
 
-<p class="tweede"> Na de middelbare school wil ik de opleiding Tandheelkunde volgen.
-Daarom heb ik het vakkenpakket Natuur & Gezondheid gekozen.
-Wiskunde is mijn lievelingsvak, direct gevolgd door gym.
-Ik wil graag studeren aan de Vrije Universiteit in Amsterdam.
-Omdat Tandheelkunde een numerus-fixusopleiding is, zal ik hoge cijfers moeten halen.
-Uiteindelijk hoop ik een eigen praktijk te beginnen.</p>
-<img class="Tandarts" src="Foto's/Foto van tandarts.png" alt="Tandarts">
-<footer class="footer">
-<strong>Gemaakt door: M.zouiti</strong>
-</footer>
+    <!-- Hoofdtitel van de homepage -->
+    <h1>Hallo dames en heren, welkom bij mijn website!</h1>
+
+    <!-- Afbeelding van Ronaldo met een beschrijvende alt-tekst -->
+    <img class="CR7" src="Foto's/Foto van Ronaldo.png" alt="Cristiano Ronaldo in een zakelijke pak">
+
+    <!-- Eerste paragraaf met introductie over jezelf -->
+    <p class="begin">
+        Hallo, mijn naam is Marwane. Ik ben 16 jaar en zit in 5 vwo.
+        Ik ben geboren en getogen in Leiden en mijn hobby’s zijn voetbal en naar de sportschool gaan.
+        Omdat ik tweetalig ben opgegroeid, spreek ik vloeiend Pools.
+        Mijn idool is 
+        <!-- "span" gebruiken om apart te stylen in CSS -->
+        <span class="Cristiano">Cristiano</span> 
+        <span class="Ronaldo">Ronaldo</span>, 
+        omdat hij bekendstaat om zijn discipline en harde werk.
+        Later hoop ik net zo gedreven en succesvol te worden als hij.
+    </p>
+
+    <!-- Tweede paragraaf met info over je toekomstplannen -->
+    <p class="tweede">
+        Na de middelbare school wil ik de opleiding Tandheelkunde volgen.
+        Daarom heb ik het vakkenpakket Natuur & Gezondheid gekozen.
+        Wiskunde is mijn lievelingsvak, direct gevolgd door gym.
+        Ik wil graag studeren aan de Vrije Universiteit in Amsterdam.
+        Omdat Tandheelkunde een numerus-fixusopleiding is, zal ik hoge cijfers moeten halen.
+        Uiteindelijk hoop ik een eigen praktijk te beginnen.
+    </p>
+
+    <!-- Afbeelding van tandarts (ook hier alt = toegankelijkheid, goed) -->
+    <img class="Tandarts" src="Foto's/Foto van tandarts.png" alt="Tandarts">
+
+    <!-- Footer onderaan de pagina -->
+    <footer class="footer">
+        <!-- Hier zet je jouw naam als maker -->
+        <strong>Gemaakt door: M.zouiti</strong>
+    </footer>
 </body>
 </html>
