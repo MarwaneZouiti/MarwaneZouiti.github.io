@@ -144,7 +144,6 @@ table{
 border: 3px;
 border-collapse: collapse;
 border-color: black;
-border-radius: 8px
 }
 
 .table-container {
@@ -154,4 +153,5 @@ margin: 0 auto;
 th, td {
   border: 2px solid black;  /* zwarte rand om elke cel */
   padding: 10px 15px;
+  border-radius: 8px;
 }
