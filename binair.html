@@ -1,57 +1,96 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
+<!-- Dit is een HTML5-document -->
+
 <html>
 <head>
-<link rel="stylesheet" href="opmaak.css">
+    <!-- Koppeling naar de CSS-stylesheet waarin alle opmaak staat -->
+    <link rel="stylesheet" href="opmaak.css">
 </head>
+
 <body>
-<ul>
-  <li><a href="index.html">Home</a>
-  <li><a class="active" href="binair.html">Binair stelsel</a></li>
-  <li><a href="compressie.html">Compressie</a></li>
-  <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
-  <li><a href="Invoer - verwerking - uitvoer.html">Invoer-verwerking-uitvoer</a></li>
-</ul>
-<h1 class="binairh1">Binair stelsel</h1>
-<img class="code" src="/Foto's/Binaire code.jpg" alt="Plaatje van binaire code">
-<p class="binair"> Het binaire stelsel is een telsysteem dat alleen maar de cijfers 0 en 1 gebruikt.
-Elke positie in een binair getal heeft een waarde die telkens verdubbelt ten opzichte van de vorige: 1, 2, 4, 8, 16, enzovoort. De meest rechter 1 is dus 1 waard, de volgende 1 (één plaats naar links) is 2 waard, daarna 4, enzovoort.
-De 0 betekent altijd dat die positie geen waarde bijdraagt.</p>
+    <!-- Navigatiemenu bovenaan de pagina -->
+    <ul>
+        <!-- Menu-item Home -->
+        <li><a href="index.html">Home</a></li>
+        <!-- Menu-item Binair stelsel (nu actief) -->
+        <li><a class="active" href="binair.html">Binair stelsel</a></li>
+        <!-- Menu-item Compressie -->
+        <li><a href="compressie.html">Compressie</a></li>
+        <!-- Menu-item Kleurmodellen -->
+        <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
+        <!-- Menu-item Invoer-verwerking-uitvoer -->
+        <li><a href="Invoer - verwerking - uitvoer.html">Invoer-verwerking-uitvoer</a></li>
+    </ul>
 
-<p class="binair2"><strong>Bits en Bytes</strong><br><br>bit is de kleinste vorm van informatie, het kan 0 of 1 zijn. Met een enkele bit kan een computer dus maar één van de twee mogelijke waardes opslaan. Als je 8 bits bij elkaar hebt dan noem je het een byte. Bytes worden gebruikt om bijna alle vormen van data op te slaan, zoals tekst, cijfers, afbeeldingen en geluiden.
-</p>
+    <!-- Hoofdtitel van de pagina over het binaire stelsel -->
+    <h1 class="binairh1">Binair stelsel</h1>
 
-<p class="binair3"><strong>ASCII-tabel</strong><br><br>ASCII-tabel (American Standard Code for Information Interchange) is een standaard waarmee elk teken in een computer een uniek getal krijgt. Zo kan een computer letters, cijfers en symbolen opslaan en verwerken.
-</p>
+    <!-- Afbeelding van binaire code -->
+    <img class="code" src="/Foto's/Binaire code.jpg" alt="Plaatje van binaire code">
 
-<table class="table-container">
-<tr>
-<th>Teken</th>
-<th>Decimaal</th>
-<th>Binair</th>
-</tr>
-<tr>
-<td>A</td>
-<td>65</td>
-<td>01000001</td>
-</tr>
-<tr>
-<td>B</td>
-<td>66</td>
-<td>01000010</td>
-</tr>
-<tr>
-<td>C</td>
-<td>67</td>
-<td>01000011</td>
-</tr>
-</table>
+    <!-- Paragraaf met uitleg over het binaire stelsel -->
+    <p class="binair">
+        Het binaire stelsel is een telsysteem dat alleen maar de cijfers 0 en 1 gebruikt.
+        Elke positie in een binair getal heeft een waarde die telkens verdubbelt ten opzichte van de vorige: 1, 2, 4, 8, 16, enzovoort.
+        De meest rechter 1 is dus 1 waard, de volgende 1 (één plaats naar links) is 2 waard, daarna 4, enzovoort.
+        De 0 betekent altijd dat die positie geen waarde bijdraagt.
+    </p>
 
-<h2>Hier kan je nog even oefenen!</h2>
+    <!-- Paragraaf met uitleg over Bits en Bytes -->
+    <p class="binair2">
+        <!-- "strong" maakt de titel vetgedrukt -->
+        <strong>Bits en Bytes</strong><br><br>
+        bit is de kleinste vorm van informatie, het kan 0 of 1 zijn.
+        Met een enkele bit kan een computer dus maar één van de twee mogelijke waardes opslaan.
+        Als je 8 bits bij elkaar hebt dan noem je het een byte.
+        Bytes worden gebruikt om bijna alle vormen van data op te slaan, zoals tekst, cijfers, afbeeldingen en geluiden.
+    </p>
 
-<iframe src="https://games.penjee.com/binary-bonanza/game.php" width="700" height="500" frameborder="no" scrolling="no" ></iframe>
-<footer class="footer">
-<strong>Gemaakt door: M.zouiti</strong>
-</footer>
+    <!-- Paragraaf met uitleg over de ASCII-tabel -->
+    <p class="binair3">
+        <strong>ASCII-tabel</strong><br><br>
+        ASCII-tabel (American Standard Code for Information Interchange) is een standaard waarmee elk teken in een computer een uniek getal krijgt.
+        Zo kan een computer letters, cijfers en symbolen opslaan en verwerken.
+    </p>
+
+    <!-- Tabel waarin een deel van de ASCII-tabel wordt weergegeven -->
+    <table class="table-container">
+        <tr>
+            <!-- Kolomkoppen -->
+            <th>Teken</th>
+            <th>Decimaal</th>
+            <th>Binair</th>
+        </tr>
+        <!-- Rij met de letter A -->
+        <tr>
+            <td>A</td>
+            <td>65</td>
+            <td>01000001</td>
+        </tr>
+        <!-- Rij met de letter B -->
+        <tr>
+            <td>B</td>
+            <td>66</td>
+            <td>01000010</td>
+        </tr>
+        <!-- Rij met de letter C -->
+        <tr>
+            <td>C</td>
+            <td>67</td>
+            <td>01000011</td>
+        </tr>
+    </table>
+
+    <!-- Subtitel voor een oefenonderdeel -->
+    <h2>Hier kan je nog even oefenen!</h2>
+
+    <!-- Ingesloten spel via een iframe -->
+    <iframe src="https://games.penjee.com/binary-bonanza/game.php" width="700" height="500" frameborder="no" scrolling="no" ></iframe>
+
+    <!-- Footer onderaan de pagina -->
+    <footer class="footer">
+        <strong>Gemaakt door: M.zouiti</strong>
+    </footer>
 </body>
 
 </html>
