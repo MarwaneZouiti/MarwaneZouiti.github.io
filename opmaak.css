@@ -163,3 +163,12 @@ background-color: rgb(191, 129, 47);
 td{
 background-color: burlywood;
 }
+
+.compressie{
+color: black;
+background-color: grey;
+border-radius: 8px;
+width: 60%;
+padding: 30px;
+margin: auto;
+}
