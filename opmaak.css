@@ -5,6 +5,9 @@ body {
     padding-top: 70px; /* ruimte boven content, gelijk aan menuhoogte */
 }
 
+.binair7{
+background-image: url("Fotos/Binaire code.jpg");
+}
 
 ul {
 list-style-type: none;
