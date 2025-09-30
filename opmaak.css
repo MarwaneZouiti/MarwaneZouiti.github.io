@@ -198,4 +198,13 @@ margin-top: 20px;
 text-align: center;
 }
 
-.kleurmodellen
+.kleurmodellen1{
+color: black;
+background-color: grey;
+border-radius: 8px;
+width: 60%;
+padding: 30px;
+margin: auto;
+margin-top: 20px;
+text-align: center;
+}
