@@ -124,10 +124,10 @@ h2{
 
 .binair2{
   color: black;
-background-color: grey;
-border-radius: 8px;
-width: 45%;
-padding: 30px;
-margin: 25px auto 0 auto; /* ↑150px ruimte boven, auto links/rechts */
-margin-left: 75px;
+  background-color: grey;
+  border-radius: 8px;
+  width: 60%;
+  padding: 30px;
+  margin-left: 230px;
+  margin-top: 35px;
 }
