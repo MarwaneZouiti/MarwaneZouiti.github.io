@@ -1,246 +1,229 @@
+/* Algemene body-styling */
 body {
-    background-color: blanchedalmond;
+    background-color: blanchedalmond; /* Achtergrondkleur van de pagina */
+    margin: 0;                        /* Verwijdert standaardmarges */
+    padding: 0;                       /* Verwijdert standaardpadding */
+    padding-top: 70px; /* Ruimte boven content, gelijk aan menuhoogte */
+}
+
+/* Navigatiebalk */
+ul {
+    list-style-type: none;    /* Verwijdert standaard bullets */
     margin: 0;
     padding: 0;
-    padding-top: 70px; /* ruimte boven content, gelijk aan menuhoogte */
+    background-color: black;  /* Achtergrondkleur van het menu */
+    display: flex;            /* Flexbox voor horizontale layout */
+    justify-content: center;  /* Menu-items horizontaal centreren */
+    position: fixed;          /* Menu blijft bovenaan staan bij scrollen */
+    top: 0;                   /* Bovenaan scherm */
+    left: 0;
+    width: 100%;              /* Menu over volledige breedte */
+    height: 70px;             /* Hoogte van de navigatiebalk */
+    align-items: center;      /* Verticaal centreren van links */
+    z-index: 1000;            /* Menu blijft boven andere elementen */
 }
 
-ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-background-color: black;
-display: flex;
-justify-content: center;
-position: fixed;
-top: 0;             /* bovenaan het scherm */
-left: 0;
-width: 100%;
-height: 70px;       /* stel hier je menuhoogte in */
-align-items: center;
-z-index: 1000;
-}
-
+/* Styling van de links in het menu */
 ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 22px 20px;
-  text-decoration: none;
-  transition: background-color 0.3s;
-  position: relative; 
-
+    display: block;            /* Link als block-element zodat padding werkt */
+    color: white;              /* Tekstkleur van de link */
+    text-align: center;        /* Tekst centreren binnen de link */
+    padding: 22px 20px;        /* Ruimte binnen de link */
+    text-decoration: none;     /* Verwijdert onderstreping */
+    transition: background-color 0.3s; /* Zachte overgang bij hover */
+    position: relative;        /* Nodig voor ::after pseudo-element */
 }
 
+/* Hover-effect voor links */
 ul li a:hover {
-  background-color: rgb(66, 66, 66);
-  text-decoration: none;
-  border-radius: 4px;
+    background-color: rgb(66, 66, 66); /* Donkerder achtergrond bij hover */
+    text-decoration: none;             /* Geen onderstreping bij hover */
+    border-radius: 4px;                /* Ronde hoek bij hover */
 }
 
+/* Actieve link styling */
 ul li a.active {
-  background-color: grey;
-  border-radius: 4px;
+    background-color: grey;  /* Grijze achtergrond voor actieve pagina */
+    border-radius: 4px;      /* Ronde hoek */
 }
 
+/* Onderstrepingseffect met pseudo-element */
 ul li a::after {                 
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 3px;
-  background: rgb(97, 218, 255);
-  transition: width 0.4s;          
-  border-radius: 4px;
+    content: "";                       /* Pseudo-element leeg */
+    position: absolute;                /* Absoluut binnen de link */
+    bottom: 0;                         /* Onderkant van link */
+    left: 0;                           /* Beginpunt links */
+    width: 0;                           /* Begin breedte = 0 */
+    height: 3px;                       /* Hoogte van de lijn */
+    background: rgb(97, 218, 255);     /* Kleur van de lijn */
+    transition: width 0.4s;            /* Animatie bij hover */
+    border-radius: 4px;                 /* Ronde hoeken van lijn */
 }
 
-ul li a:hover::after {                     /* Wanneer de muis over de link gaat */
-  width: 100%;                             /* Lijn groeit van 0 naar volledige breedte: het effect */
+/* Hover-effect voor pseudo-onderstreping */
+ul li a:hover::after {
+    width: 100%; /* Lijn groeit volledig van links naar rechts */
 }
 
+/* Hoofdtitels */
 h1 {
-  text-align: center;
-  background-color: bisque;
-  padding: 30px;
-  margin-top: 0%;
+    text-align: center;       /* Tekst centreren */
+    background-color: bisque; /* Achtergrondkleur van titel */
+    padding: 30px;            /* Binnenruimte rondom de tekst */
+    margin-top: 0%;           /* Geen extra marge boven de titel */
 }
 
+/* Afbeelding Cristiano Ronaldo links */
 .CR7 {
-float: left;
-margin-left: 15px;
+    float: left;      /* Plaats links van de content */
+    margin-left: 15px; /* Ruimte vanaf de linkerzijde */
 }
 
+/* Afbeelding Tandarts rechts */
 .Tandarts {
-margin-top: -300px;
-float: right;
-margin-bottom: 50px;
+    margin-top: -300px;  /* Plaats omhoog boven normale flow */
+    float: right;        /* Plaats rechts van de content */
+    margin-bottom: 50px; /* Ruimte onder afbeelding */
 }
 
-
+/* iframe centreren */
 iframe {
-  display: block;
-  margin: 0 auto
+    display: block;      /* Block-element zodat margin werkt */
+    margin: 0 auto;      /* Horizontaal centreren */
 }
 
+/* Eerste tekstblok */
 .begin {
-  color: black;
-  background-color: grey;
-  border-radius: 8px;
-  width: 60%;
-  padding: 30px;
-  margin-left: 230px;
-  margin-top: 35px;
+    color: black;               /* Tekstkleur */
+    background-color: grey;     /* Achtergrondkleur */
+    border-radius: 8px;         /* Ronde hoeken */
+    width: 60%;                  /* Breedte van het blok */
+    padding: 30px;               /* Binnenruimte */
+    margin-left: 230px;          /* Ruimte vanaf linkerzijde */
+    margin-top: 35px;            /* Ruimte boven het blok */
 }
 
-.tweede{ 
-color: black;
-background-color: grey;
-border-radius: 8px;
-width: 45%;
-padding: 30px;
-margin: 150px auto 0 auto; /* ↑150px ruimte boven, auto links/rechts */
-margin-left: 75px;
-}
-.Cristiano{
-  color: red;
+/* Tweede tekstblok */
+.tweede { 
+    color: black;
+    background-color: grey;
+    border-radius: 8px;
+    width: 45%;
+    padding: 30px;
+    margin: 150px auto 0 auto; /* 150px boven, horizontaal gecentreerd */
+    margin-left: 75px;          /* Extra marge links */
 }
 
-.Ronaldo{
-  color: greenyellow;
+/* Specifieke tekstkleuren voor namen */
+.Cristiano {
+    color: red;
 }
 
-.binair{
-color: black;
-background-color: grey;
-border-radius: 8px;
-width: 60%;
-padding: 30px;
-margin-left: 230px;
-margin-top: 35px;
+.Ronaldo {
+    color: greenyellow;
 }
 
-h2{
-  text-align: center;
-  padding: 15px;
+/* Binaire tekstblokken */
+.binair, .binair2, .binair3 {
+    color: black;
+    background-color: grey;
+    border-radius: 8px;
+    width: 60%;
+    padding: 30px;
+    margin-left: 230px;
+    margin-top: 35px;
+    text-align: center;
 }
 
-.code{
-border-radius: 12px;
-border: 2px solid black;
-margin-left: 10%;
-width: 80%;
+/* Subtitels h2 */
+h2 {
+    text-align: center;
+    padding: 15px;
 }
 
-.binair2{
-color: black;
-background-color: grey;
-border-radius: 8px;
-width: 60%;
-padding: 30px;
-margin-left: 230px;
-margin-top: 35px;
-text-align: center;
-}
-.binair3{
-color: black;
-background-color: grey;
-border-radius: 8px;
-width: 60%;
-padding: 30px;
-margin-left: 230px;
-margin-top: 35px;
-text-align: center;
+/* Afbeelding van code */
+.code {
+    border-radius: 12px;         /* Ronde hoeken */
+    border: 2px solid black;     /* Zwarte rand */
+    margin-left: 10%;             /* Ruimte vanaf linkerzijde */
+    width: 80%;                  /* Breedte afbeelding */
 }
 
+/* Tabel styling */
 .table-container {
-border: 2px;
-border-radius: 3px;
-border-collapse: collapse;
-border-color: black;
-margin: 0 auto;
-overflow: hidden; 
+    border: 2px;                   /* Dikte van de rand (in combinatie met border-color) */
+    border-radius: 3px;             /* Ronde hoeken */
+    border-collapse: collapse;      /* Geen dubbele randen tussen cellen */
+    border-color: black;            /* Kleur van de rand */
+    margin: 0 auto;                 /* Horizontaal centreren */
+    overflow: hidden; 
 }
 
+/* Tabelcellen */
 th, td {
-  border: 2px solid black;  /* zwarte rand om elke cel */
-  padding: 10px 15px;
+    border: 2px solid black;  /* Zwarte rand om elke cel */
+    padding: 10px 15px;       /* Ruimte in de cel */
 }
 
-th{
-background-color: rgb(191, 129, 47);
+/* Tabelkop */
+th {
+    background-color: rgb(191, 129, 47); /* Achtergrondkleur kop */
 }
 
-td{
-background-color: burlywood;
+/* Tabeldata */
+td {
+    background-color: burlywood;        /* Achtergrondkleur van cellen */
 }
 
-.compressie{
-color: black;
-background-color: grey;
-border-radius: 8px;
-width: 60%;
-padding: 30px;
-margin: auto;
-margin-top: 20px;
-text-align: center;
+/* Compressie blokken */
+.compressie, .compressie2, .compressie3 {
+    color: black;
+    background-color: grey;
+    border-radius: 8px;
+    width: 60%;
+    padding: 30px;
+    margin: auto;        /* Horizontaal centreren */
+    margin-top: 20px;    /* Ruimte boven elk blok */
+    text-align: center;  /* Tekst centreren */
 }
 
-.compressie2{
-color: black;
-background-color: grey;
-border-radius: 8px;
-width: 60%;
-padding: 30px;
-margin: auto;
-margin-top: 20px;
-text-align: center;
+/* Kleurmodellen blokken */
+.kleurmodellen1 {
+    color: black;
+    background-color: grey;
+    border-radius: 8px;
+    width: 60%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
 }
 
-.compressie3{
-color: black;
-background-color: grey;
-border-radius: 8px;
-width: 60%;
-padding: 30px;
-margin: auto;
-margin-top: 20px;
-text-align: center;
+/* Afbeeldingen kleurmodellen */
+.kleur {
+    display: block;     /* Block-element voor centreren */
+    margin: auto;       /* Horizontaal centreren */
+    margin-top: 15px;   /* Ruimte boven afbeelding */
 }
 
-.kleurmodellen1{
-color: black;
-background-color: grey;
-border-radius: 8px;
-width: 60%;
-padding: 30px;
-margin: auto;
-margin-top: 20px;
-text-align: center;
-}
-.kleur{
-display: block;
-margin: auto;
-margin-top: 15px;
+/* Algemene informatie blokken */
+.informatie {
+    color: black;
+    background-color: grey;
+    border-radius: 8px;
+    width: 60%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
 }
 
-
-.informatie{
-color: black;
-background-color: grey;
-border-radius: 8px;
-width: 60%;
-padding: 30px;
-margin: auto;
-margin-top: 20px;
-text-align: center;
-}
-
-.footer{
-text-align: center;
-padding: 30px;
-background-color: bisque;
-margin-top: 15px;
-margin-bottom: 0%;
-clear: both;
+/* Footer */
+.footer {
+    text-align: center;       /* Tekst centreren */
+    padding: 30px;            /* Binnenruimte */
+    background-color: bisque; /* Achtergrondkleur footer */
+    margin-top: 15px;         /* Ruimte boven footer */
+    margin-bottom: 0%;        /* Geen marge onderaan */
+    clear: both;              /* Footer onder zwevende elementen */
 }
