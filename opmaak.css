@@ -143,6 +143,7 @@ h2{
 
 .table-container {
 border: 3px;
+border-radius: 8px;
 border-collapse: collapse;
 border-color: black;
 margin: 0 auto;
