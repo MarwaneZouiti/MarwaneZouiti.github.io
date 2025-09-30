@@ -124,6 +124,10 @@ h2{
   padding: 15px;
 }
 
+.code{
+border-radius: 12px;
+border: 2px solid black;
+}
 
 .binair2{
 color: black;
