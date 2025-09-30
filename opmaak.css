@@ -145,3 +145,7 @@ border: 3px;
 border-color: black;
 border-radius: 8px
 }
+th, td {
+  border: 2px solid black;  /* zwarte rand om elke cel */
+  padding: 10px 15px;
+}
