@@ -147,6 +147,9 @@ border-color: black;
 }
 
 .table-container {
+border: 3px;
+border-collapse: collapse;
+border-color: black;
 margin: 0 auto;
 overflow: hidden; 
 }
